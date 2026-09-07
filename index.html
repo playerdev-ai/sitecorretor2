@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+    <title>LIMA IMÓVEIS HUB | O Netflix dos Imóveis do Amapá</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="O maior portal imobiliário do Amapá. Casas, apartamentos, terrenos e pontos comerciais em Santana e Macapá.">
+    <meta name="keywords" content="imóveis Santana AP, casa à venda Santana, portal imobiliário Amapá, Lima Imóveis Hub">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-info">
+                <span><i class="fas fa-map-marker-alt"></i> Atendemos Santana e Macapá</span>
+                <span><i class="fas fa-clock"></i> Atendimento 08h às 19h</span>
+                <span><i class="fas fa-phone"></i> (96) 98138-9085</span>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                LIMA HUB <span>IMÓVEIS</span>
+            </a>
+
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="globalSearch" placeholder="O que você procura? Ex: Casa 3 quartos no Paraíso">
+                <button class="btn-search">Buscar</button>
+            </div>
+
+            <div class="header-actions">
+                <a href="#" class="action-btn" id="favCounterBtn">
+                    <i class="far fa-heart"></i>
+                    <span class="badge" id="favCount">0</span>
+                </a>
+                <a href="https://wa.me/5596981389085" target="_blank" class="action-btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <button class="btn btn-gold btn-anunciar">
+                    <i class="fas fa-plus-circle"></i> Anunciar Imóvel
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CATEGORIES MEGA MENU -->
+    <nav class="nav-categories">
+        <div class="container nav-content">
+            <ul class="nav-list">
+                <li class="has-mega">
+                    <a href="#">COMPRAR <i class="fas fa-chevron-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-col">
+                            <h4>Residencial</h4>
+                            <a href="#">Casas de Luxo</a>
+                            <a href="#">Apartamentos</a>
+                            <a href="#">Sobrados</a>
+                            <a href="#">Casas em Condomínio</a>
+                        </div>
+                        <div class="mega-col">
+                            <h4>Terrenos</h4>
+                            <a href="#">Lotes Urbanos</a>
+                            <a href="#">Terrenos Comerciais</a>
+                            <a href="#">Áreas Industriais</a>
+                        </div>
+                        <div class="mega-col">
+                            <h4>Destaques</h4>
+                            <a href="#">Lançamentos Exclusivos</a>
+                            <a href="#">Pronto para Morar</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="has-mega">
+                    <a href="#">ALUGAR <i class="fas fa-chevron-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-col">
+                            <h4>Residencial</h4>
+                            <a href="#">Casas</a>
+                            <a href="#">Kitnets</a>
+                            <a href="#">Apartamentos</a>
+                        </div>
+                        <div class="mega-col">
+                            <h4>Comercial</h4>
+                            <a href="#">Salas Comerciais</a>
+                            <a href="#">Galpões</a>
+                            <a href="#">Lojas Térreas</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="has-mega">
+                    <a href="#">BAIRROS <i class="fas fa-chevron-down"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-col">
+                            <h4>Santana</h4>
+                            <a href="#">Paraíso</a>
+                            <a href="#">Nova Brasília</a>
+                            <a href="#">Comercial</a>
+                            <a href="#">Centro</a>
+                        </div>
+                        <div class="mega-col">
+                            <h4>Macapá</h4>
+                            <a href="#">Centro</a>
+                            <a href="#">Zona Sul</a>
+                            <a href="#">Jardim Marco Zero</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="highlight-link"><i class="fas fa-fire"></i> OPORTUNIDADES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- NETFLIX HERO CAROUSEL -->
+    <section class="hero-netflix">
+        <div class="hero-slide active" style="background-image: linear-gradient(to top, #0E0E10 10%, rgba(14,14,16,0.3) 50%, rgba(14,14,16,0.7) 100%), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80');">
+            <div class="container hero-container">
+                <div class="hero-badge"><i class="fas fa-star"></i> DESTAQUE DA SEMANA</div>
+                <h1 class="hero-title">Mansão Contemporânea Neoclássica</h1>
+                <p class="hero-desc">Sua oportunidade de morar no bairro mais nobre de Santana. Financiamento acelerado e acabamento de alto padrão.</p>
+                <div class="hero-price">
+                    R$ 1.850.000 <span class="hero-subprice">ou 20x no financiamento bancário</span>
+                </div>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5596981389085?text=Tenho%20interesse%20na%20Mansão%20Contemporânea" target="_blank" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Falar com Corretor</a>
+                    <button class="btn btn-secondary"><i class="fas fa-vr-cardboard"></i> Tour Virtual 360°</button>
+                </div>
+            </div>
+        </div>
+        <button class="hero-arrow prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="hero-arrow next"><i class="fas fa-chevron-right"></i></button>
+    </section>
+
+    <!-- NETFLIX SHELVES (Horizontal Scroll Rows) -->
+    <section class="netflix-catalog">
+        
+        <!-- Shelf 1 -->
+        <div class="shelf-container">
+            <div class="shelf-header">
+                <h2><i class="fas fa-fire red-icon"></i> Mais Vistos Hoje em Santana</h2>
+                <a href="#listagem" class="see-all">Ver tudo <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="shelf-carousel-wrapper">
+                <button class="scroll-btn left"><i class="fas fa-chevron-left"></i></button>
+                <div class="shelf-row" id="shelfMaisVistos">
+                    <!-- Dynamic Cards via JS -->
+                </div>
+                <button class="scroll-btn right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Shelf 2 -->
+        <div class="shelf-container">
+            <div class="shelf-header">
+                <h2><i class="fas fa-tags gold-icon"></i> Oportunidades — Abaixo de R$ 250 mil</h2>
+                <a href="#listagem" class="see-all">Ver tudo <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="shelf-carousel-wrapper">
+                <button class="scroll-btn left"><i class="fas fa-chevron-left"></i></button>
+                <div class="shelf-row" id="shelfOportunidades">
+                    <!-- Dynamic Cards via JS -->
+                </div>
+                <button class="scroll-btn right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MAIN MARKETPLACE / LISTING SECTION -->
+    <section class="marketplace-section" id="listagem">
+        <div class="container marketplace-layout">
+            
+            <!-- SIDEBAR FILTERS (GSuplementos Style) -->
+            <aside class="filters-sidebar">
+                <div class="filter-header">
+                    <h3><i class="fas fa-filter"></i> Filtros Avançados</h3>
+                    <button class="btn-clear-filters" id="btnClearFilters">Limpar</button>
+                </div>
+
+                <div class="filter-group">
+                    <label>Finalidade</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="purpose" value="comprar" checked> Comprar</label>
+                        <label><input type="checkbox" name="purpose" value="alugar"> Alugar</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label>Tipo de Imóvel</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="type" value="casa" checked> Casa</label>
+                        <label><input type="checkbox" name="type" value="apartamento" checked> Apartamento</label>
+                        <label><input type="checkbox" name="type" value="terreno" checked> Terreno</label>
+                        <label><input type="checkbox" name="type" value="comercial" checked> Comercial</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label>Bairro em Santana</label>
+                    <select id="filterNeighborhood" class="filter-select">
+                        <option value="todos">Todos os Bairros</option>
+                        <option value="Paraíso">Paraíso</option>
+                        <option value="Nova Brasília">Nova Brasília</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Comercial">Comercial</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Preço Máximo: <strong id="priceDisplay" class="gold-text">R$ 2.000.000</strong></label>
+                    <input type="range" id="priceRange" min="100000" max="2000000" step="50000" value="2000000" class="range-slider">
+                </div>
+
+                <div class="filter-group">
+                    <label>Quartos Mínimos</label>
+                    <div class="btn-group-filter">
+                        <button class="btn-filter-opt active" data-beds="any">Qualquer</button>
+                        <button class="btn-filter-opt" data-beds="1">1+</button>
+                        <button class="btn-filter-opt" data-beds="2">2+</button>
+                        <button class="btn-filter-opt" data-beds="3">3+</button>
+                        <button class="btn-filter-opt" data-beds="4">4+</button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- MAIN GRID CONTENT -->
+            <main class="marketplace-main">
+                <div class="toolbar">
+                    <span class="results-count">Exibindo <strong id="resultsCount">0</strong> imóveis encontrados</span>
+                    <div class="sort-wrapper">
+                        <label>Ordenar por:</label>
+                        <select id="sortSelect" class="filter-select">
+                            <option value="recentes">Mais Recentes</option>
+                            <option value="menor-preco">Menor Preço</option>
+                            <option value="maior-preco">Maior Preço</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="property-grid" id="mainPropertyGrid">
+                    <!-- Cards Generates via JS -->
+                </div>
+            </main>
+
+        </div>
+    </section>
+
+    <!-- PROVA SOCIAL / STATS BAR -->
+    <section class="social-proof">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">137+</span>
+                <span class="stat-label">Imóveis Vendidos em Santana</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">R$ 45M+</span>
+                <span class="stat-label">Em Vendas Patrimoniais</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Segurança Jurídica</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">12 Anos</span>
+                <span class="stat-label">Liderando no Amapá</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER GSUPLEMENTOS STYLE -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">LIMA HUB <span>IMÓVEIS</span></a>
+                <p>O maior e mais moderno ecossistema imobiliário do Estado do Amapá. Inteligência e agilidade na compra e venda.</p>
+                <div class="footer-creci">CRECI-AP Nº 0412-J</div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação Rápida</h4>
+                <ul>
+                    <li><a href="#">Casas à venda em Santana</a></li>
+                    <li><a href="#">Apartamentos de Luxo</a></li>
+                    <li><a href="#">Terrenos para Investir</a></li>
+                    <li><a href="#">Pontos Comerciais Centro</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Atendimento</h4>
+                <p><i class="fas fa-map-marker-alt gold-text"></i> R. Walter Lopes da Cruz, 1430 - Nova Brasília, Santana - AP</p>
+                <p><i class="fas fa-phone gold-text"></i> (96) 98138-9085</p>
+                <p><i class="fas fa-envelope gold-text"></i> contato@limaimoveishub.com.br</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Oportunidades no E-mail</h4>
+                <p>Receba lançamentos exclusivos antes do mercado.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button class="btn btn-gold">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 LIMA IMÓVEIS HUB. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <strong class="gold-text">Player Dev</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/5596981389085?text=Olá!%20Vim%20pelo%20site%20Lima%20Imóveis%20Hub%20e%20gostaria%20de%20atendimento." target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
